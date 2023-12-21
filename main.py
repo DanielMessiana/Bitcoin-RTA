@@ -5,10 +5,6 @@ import time, requests, csv
 
 st.title("Bitcoin Data")
 
-with st.sidebar():
-	st.checkbox("")
-	if 
-
 
 def get_bitcoin_price():
     url = "https://api.coingecko.com/api/v3/simple/price"
